@@ -1,0 +1,639 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #1A1919;
+    font-family: sans-serif;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1.main-head{
+    font-weight: lighter;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 41px;
+    margin: 44px 0px 240px 0px;
+}
+
+div.show_main_data{
+    margin: 0px 0px 0px 210px;
+    display: inline-block;
+    height: 240px;
+
+}
+
+h2.screen_test{
+    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p.show_width_height{
+    margin: 10px 0px 0px 0px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+span.width,span.height{
+    font-size: 52px;
+    letter-spacing: 2px;
+
+}
+
+p.screen-width,p.screen-height,p.color-depth{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.9px;
+    margin: 23px 0px 0px 0px;
+}
+
+p.screen-height,p.color-depth{
+    margin: 13px 0px 0px 0px;
+}
+
+/* Description Part Starts */
+
+div.show_screen_info{
+    margin: 80px 200px 0px 210px;
+}
+
+h2.screen_resolution,h2.pixels{
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+    margin: 20px 0px 0px 0px;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 31px;
+
+}
+
+/* p.about_screen_resolution1::selection,p.about_screen_resolution2::selection{
+    background-color: rgb(155, 60, 60);
+} */
+
+h2.pixels{
+    margin-top: 45px;
+}
+
+div.copyright_parent{
+    margin: 50px 0px 20px 0px;
+}
+
+p.copyright{
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 25px;
+}
+
+a.top_link{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a.top_link:hover{
+    color: #F0593D;
+}
+
+/* Media Queries b/w 0px and 320px */
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+
+    h1.main-head{
+        font-size: 21px;
+        margin: 44px 0px 100px 0px;
+    }
+    
+    div.show_main_data{
+        margin: 0px 20px;
+    
+    }
+
+    h2.screen_test{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    p.show_width_height{
+        margin: 15px 0px 0px 0px;
+        font-size: 27px;
+    }
+    
+    span.width,span.height{
+        font-size: 38px;
+    
+    }
+
+    p.screen-width,p.screen-height,p.color-depth{
+        font-size: 19px;
+        margin: 17px 0px 0px 0px;
+    }
+  
+    /* Description Part Starts */
+
+    div.show_screen_info{
+        margin: 80px 20px 0px 20px;
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 25px;
+
+    }
+
+    p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+        margin: 15px 0px 0px 0px;
+        font-size: 17px;
+        line-height: 28px;
+    
+    }
+    
+    h2.pixels{
+        margin-top: 25px;
+    }
+    
+    div.copyright_parent{
+        margin: 25px 0px 20px 0px;
+    }
+    
+    p.copyright{
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+    
+
+}
+
+/* Media Queries b/w 321px and 480px */
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+
+    h1.main-head{
+        font-size: 29px;
+        padding: 0px 5px;
+        line-height: 42px;
+        margin: 44px 0px 130px 0px;
+    }
+    
+     div.show_main_data{
+        margin: 0px 0px 0px 30px;
+    
+    }
+
+    h2.screen_test{
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    p.show_width_height{
+        margin: 18px 0px 0px 0px;
+        font-size: 31px;
+    }
+    
+    span.width,span.height{
+        font-size: 41px;
+    
+    }
+
+    p.screen-width,p.screen-height,p.color-depth{
+        font-size: 20px;
+        margin: 15px 0px 0px 0px;
+    }
+  
+    /* Description Part Starts */
+
+    div.show_screen_info{
+        margin: 80px 30px 0px 30px;
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 28px;
+
+    }
+
+    p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+        margin: 18px 0px 0px 0px;
+        font-size: 19px;
+        line-height: 32px;
+    
+    }
+    
+    h2.pixels{
+        margin-top: 32px;
+    }
+    
+    div.copyright_parent{
+        margin: 28px 0px 20px 0px;
+    }
+    
+    p.copyright{
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+
+
+}
+
+/* Extra Media Queries B/W 400px and 480px */
+
+@media only screen and (min-width: 400px) and (max-width: 480px){
+    p.screen-width,p.screen-height,p.color-depth{
+        font-size: 24px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+        font-size: 23px;
+        line-height: 36px;
+    
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 31px;
+
+    }
+    
+}
+
+/* Media Queries b/w 481px and 720px */
+
+@media only screen and (min-width: 481px) and (max-width: 720px){
+
+    h1.main-head{
+        font-size: 42px;
+        line-height: 62px;
+    }
+    
+     div.show_main_data{
+        margin: 0px 0px 0px 40px;
+    }
+
+    h2.screen_test{
+        font-size: 38px;
+        line-height: 53px;
+    }
+
+    p.show_width_height{
+        margin: 18px 0px 0px 0px;
+        font-size: 42px;
+    }
+    
+    span.width,span.height{
+        font-size: 45px;
+    
+    }
+
+    p.screen-width,p.screen-height,p.color-depth{
+        font-size: 32px;
+        margin: 23px 0px 0px 0px;
+    }
+  
+    /* Description Part Starts */
+
+    div.show_screen_info{
+        margin: 80px 30px 0px 40px;
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 36px;
+
+    }
+
+    p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+        margin: 18px 0px 0px 0px;
+        font-size: 25px;
+        line-height: 39px;
+    
+    }
+    
+    h2.pixels{
+        margin-top: 36px;
+    }
+    
+    div.copyright_parent{
+        margin: 39px 0px 20px 0px;
+    }
+    
+    p.copyright{
+        font-size: 23px;
+        padding-bottom: 29px;
+    } 
+
+
+}
+
+/* Media Queries b/w 721px and 1024px */
+
+@media only screen and (min-width: 721px) and (max-width: 1024px){
+
+    h1.main-head{
+        font-size: 44px;
+        margin: 44px 0px 350px 0px;
+
+    }
+    
+    div.show_main_data{
+       margin: 0px 0px 0px 85px;
+        
+    }
+
+    h2.screen_test{
+        font-size: 48px;
+    }
+
+    p.show_width_height{
+        margin: 18px 0px 0px 0px;
+        font-size: 42px;
+    }
+    
+    span.width,span.height{
+        font-size: 55px;
+    
+    }
+
+    p.screen-width,p.screen-height,p.color-depth{
+        font-size: 38px;
+        margin: 31px 0px 0px 0px;
+    }
+  
+    /* Description Part Starts */
+
+    div.show_screen_info{
+        margin: 120px 90px 0px 90px;
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 46px;
+
+    }
+
+    p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+        margin: 20px 0px 0px 0px;
+        text-align: justify;
+        font-size: 25px;
+        line-height: 49px;
+    
+    }
+    
+    h2.pixels{
+        margin-top: 42px;
+    }
+    
+    div.copyright_parent{
+        margin: 55px 0px 20px 0px;
+    }
+    
+    p.copyright{
+        font-size: 22px;
+        padding-bottom: 35px;
+    }  
+
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px){
+
+    div.show_screen_info{
+        margin: 120px 80px 0px 80px;
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 49px;
+
+    }
+
+    p.copyright{
+        font-size: 29px;
+    }
+}
+
+/* Media Queries b/w 1025px and 1200px */
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+
+    h1.main-head{
+        font-size: 45px;
+        margin: 65px 0px 400px 0px;
+
+    }
+    
+    div.show_main_data{
+       margin: 0px 0px 0px 145px;
+        
+    }
+
+    h2.screen_test{
+        font-size: 44px;
+    }
+
+    p.show_width_height{
+        margin: 18px 0px 0px 0px;
+        font-size: 42px;
+    }
+    
+    span.width,span.height{
+        font-size: 60px;
+        letter-spacing: 4px;
+    
+    }
+
+    p.screen-width,p.screen-height,p.color-depth{
+        font-size: 33px;
+        margin: 31px 0px 0px 0px;
+    }
+  
+    /* Description Part Starts */
+
+    div.show_screen_info{
+        margin: 160px 90px 0px 140px;
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 43px;
+
+    }
+
+    p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+        margin: 20px 0px 0px 0px;
+        font-size: 24px;
+        line-height: 44px;
+    
+    }
+    
+    h2.pixels{
+        margin-top: 55px;
+    }
+    
+    div.copyright_parent{
+        margin: 55px 0px 20px 0px;
+    }
+    
+    p.copyright{
+        font-size: 27px;
+        padding-bottom: 40px;
+    }  
+
+
+}
+
+/* Media Queries b/w 1201px and 1500px */
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px){
+
+    h1.main-head{
+        font-size: 40px;
+        margin: 65px 0px 200px 0px;
+
+    }
+    
+    div.show_main_data{
+       margin: 0px 0px 0px 255px;
+        
+    }
+
+    h2.screen_test{
+        font-size: 38px;
+    }
+
+    p.show_width_height{
+        margin: 18px 0px 0px 0px;
+        font-size: 46px;
+    }
+    
+    span.width,span.height{
+        font-size: 53px;
+        letter-spacing: 4px;
+    
+    }
+
+    p.screen-width,p.screen-height,p.color-depth{
+        font-size: 28px;
+        margin: 31px 0px 0px 0px;
+    }
+  
+    /* Description Part Starts */
+
+    div.show_screen_info{
+        margin: 170px 90px 0px 190px;
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 36px;
+
+    }
+
+    p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+        margin: 20px 0px 0px 0px;
+        font-size: 19px;
+        line-height: 44px;
+    
+    }
+    
+    h2.pixels{
+        margin-top: 55px;
+    }
+    
+    div.copyright_parent{
+        margin: 55px 0px 20px 0px;
+    }
+    
+    p.copyright{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }  
+
+
+}
+
+
+
+
+
+/* Media Queries b/w 1501px and 1800px */
+
+@media only screen and (min-width: 1501px) and (max-width: 1800px){
+
+    h1.main-head{
+        font-size: 46px;
+        margin: 65px 0px 230px 0px;
+
+    }
+    
+    div.show_main_data{
+       margin: 0px 0px 0px 265px;
+        
+    }
+
+    h2.screen_test{
+        font-size: 44px;
+    }
+
+    p.show_width_height{
+        margin: 20px 0px 0px 0px;
+        font-size: 42px;
+    }
+    
+    span.width,span.height{
+        font-size: 55px;
+        letter-spacing: 4px;
+    
+    }
+
+    p.screen-width,p.screen-height,p.color-depth{
+        font-size: 32px;
+        letter-spacing: 2px;
+        margin: 34px 0px 0px 0px;
+    }
+  
+    /* Description Part Starts */
+
+    div.show_screen_info{
+        margin: 190px 90px 0px 220px;
+    }
+
+    h2.screen_resolution,h2.pixels{
+        font-size: 42px;
+
+    }
+
+    p.about_screen_resolution1,p.about_screen_resolution2,p.about_pixels1,p.about_pixels2,p.about_pixels3,p.about_pixels4,p.about_pixels5,p.about_pixels6,p.about_pixels7,p.about_pixels8,p.about_pixels9,p.about_pixels10{
+        margin: 20px 0px 0px 0px;
+        font-size: 25px;
+        line-height: 44px;
+    
+    }
+    
+    h2.pixels{
+        margin-top: 50px;
+    }
+    
+    div.copyright_parent{
+        margin: 55px 0px 20px 0px;
+    }
+    
+    p.copyright{
+        font-size: 27px;
+        padding-bottom: 40px;
+    }  
+
+
+}
