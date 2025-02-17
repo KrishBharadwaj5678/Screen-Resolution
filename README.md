@@ -15,10 +15,10 @@
 ## 📥 Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/screen-resolution.git
+   git clone https://github.com/KrishBharadwaj5678/Screen-Resolution.git
    ```
 2. Navigate to the project directory:  
    ```bash
-   cd screen-resolution
+   cd Screen-Resolution
    ```
 3. Open `index.html` in your browser.  
