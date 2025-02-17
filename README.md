@@ -3,8 +3,7 @@
 **A simple and lightweight website that displays your screen dimensions (width and height) in real time.**  
 
 ## ✨ Features  
-- 📏 Shows exact screen width and height  
-- ⚡ Instant updates when resizing the screen  
+- 📏 Shows exact screen width and height
 - 🎨 Clean and minimal design  
 - 📱 Works on all devices  
 
